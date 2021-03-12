@@ -1,1 +1,9 @@
-{{ content }}
+{{ collection from="posts" }}
+<article class="c-post-card">
+  <h2 class="c-post-card__title">{{ title }}</h2>
+
+  <section class="c-post-card__excerpt">
+    {{ content | excerpt }}
+  </section>
+</article>
+{{ /collection }}
