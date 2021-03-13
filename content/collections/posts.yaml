@@ -2,7 +2,8 @@ title: Posts
 template: post
 layout: layout
 revisions: false
-sort_dir: asc
+date: true
+sort_dir: desc
 date_behavior:
   past: public
   future: private
